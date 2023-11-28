@@ -46,3 +46,15 @@ let isArray;
 let creditCardTypeOfBlindermann;
 let totalPurchaseOfJoannet;
 let totalPurchaseOfDary;
+
+isArray = Array.isArray(orders);
+console.log(isArray); //true
+
+creditCardTypeOfBlindermann = orders[2].creditCardType; // 'switch'
+
+orders[2].creditCardType = "visa";
+totalPurchaseOfJoannet = orders[3].productQuantity; //96
+totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity; //934902
+
+orders.shift(); // ลบ Object ตัวแรก
+console.log(orders);
