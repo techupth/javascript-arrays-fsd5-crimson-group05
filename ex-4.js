@@ -11,4 +11,15 @@ const employees = [
   },
 ];
 
-// Start coding here
+employees.push(
+  {
+    name: "alica",
+    age: 29,
+    hobbies: ["Shopping", "reading novels"],
+  },
+  {
+    name: "kody",
+    age: 19,
+    hobbies: ["Computer games", "Wakeboard"],
+  }
+);
